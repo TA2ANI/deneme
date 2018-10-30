@@ -10,7 +10,7 @@ WidgetLED led1(V0);
 BlynkTimer timer;
 WidgetBridge bridge1(V4);
 
-char auth[] = "e258d773e9c2485c9706f54257b7d8da"; // ESP-12 TOKEN
+char auth[] = "............"; // ESP-12 TOKEN
 
 
 int sanalbuton1;        // V1
@@ -26,16 +26,11 @@ bool iptal = false;
 bool brigde = false;
 
 
-//Ev Kablosuz Ağ bilgileri
-/*
-  char ssid[] = "ELAN";
-  char pass[] = "1234AB567C";
-*/
 
 // Büro Kablosuz Ağ bilgileri
 
-char ssid[] = "TA2ANI_connection";
-char pass[] = "AeF14772380";
+char ssid[] = "..............";
+char pass[] = "..............";
 
 
 
